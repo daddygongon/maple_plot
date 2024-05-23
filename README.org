@@ -11,7 +11,7 @@
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 
 
-CLI and library codes of Ruby for Maple plt
+CLI and library codes of Ruby for Maple plot
 
 * Installation
 Install the gem and add to the application's Gemfile by executing:
@@ -32,21 +32,20 @@ puts listplot3d(DATA_NAME_STRING) # default = 'data_3d'
 #+end_src
 
 CLIは基本的なメモを表示するような機能しかないです．
-- dataを送ってそれを表示させる．
+- dataを読み込んで表示させる
 というのもありかも．
 my_helpで打ち出すmemoとなんら変わりはありません．
 ただ，libraryがあるので，Rakefileなんかに組み込んで，
 : rake maple_plot | pbcopy (or clip.exe for wsl)
 なんかでMapleにpasteすればplotが完成します．
-legendやfontなんかの細かい設定なんかは，MapleのGUI
-が便利ですので，それへの出力を意図しています．
+legendやfontなんかの細かい設定調整は，
+MapleのGUIが便利ですので，
+そこへの出力を意図しています．
 
 誰か，pythonのmatplotlib版を作ってください．
 いつも，路頭に迷うんで．．．
 そういえば，pythonのplot仕様を統一するのがあったな．
 - [[https://qiita.com/Hanjin_Liu/items/f708a007ea8bb737ab43][【Python】Plot系ライブラリ全統一した]]
-
-
 * Development
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test-unit` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 

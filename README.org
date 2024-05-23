@@ -43,7 +43,6 @@ legendやfontなんかの細かい設定なんかは，MapleのGUI
 
 誰か，pythonのmatplotlib版を作ってください．
 いつも，路頭に迷うんで．．．
-
 そういえば，pythonのplot仕様を統一するのがあったな．
 - [[https://qiita.com/Hanjin_Liu/items/f708a007ea8bb737ab43][【Python】Plot系ライブラリ全統一した]]
 

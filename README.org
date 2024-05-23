@@ -22,6 +22,30 @@ install the gem by executing:
 : gem install maple_plot
 
 * Usage
+** for CLI
+To show the maple plot code for listplot3d,
+: maple_plot listplot3d
+** for library
+#+begin_src ruby
+require 'maple_plot'
+puts listplot3d('shift_energies')
+#+end_src
+
+CLIは基本的なメモを表示するような機能しかないです．
+- dataを送ってそれを表示させる．
+というのもありかも．
+my_helpで打ち出すmemoとなんら変わりはありません．
+ただ，libraryがあるので，Rakefileなんかに組み込んで，
+: rake maple_plot | pbcopy (or clip.exe for wsl)
+なんかでMapleにpasteすればplotが完成します．
+legendやfontなんかの細かい設定なんかは，MapleのGUI
+が便利ですので，それへの出力を意図しています．
+
+誰か，pythonのmatplotlib版を作ってください．
+いつも，路頭に迷うんで．．．
+
+そういえば，pythonのplot仕様を統一するのがあったな．
+- [[https://qiita.com/Hanjin_Liu/items/f708a007ea8bb737ab43][【Python】Plot系ライブラリ全統一した]]
 
 
 * Development

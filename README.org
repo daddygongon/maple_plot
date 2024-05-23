@@ -40,7 +40,7 @@ my_helpで打ち出すmemoとなんら変わりはありません．
 なんかでMapleにpasteすればplotが完成します．
 legendやfontなんかの細かい設定調整は，
 MapleのGUIが便利ですので，
-そこへの出力を意図しています．
+そこへの雛形出力を意図しています．
 
 誰か，pythonのmatplotlib版を作ってください．
 いつも，路頭に迷うんで．．．

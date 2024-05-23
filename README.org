@@ -28,7 +28,7 @@ To show the maple plot code for listplot3d,
 ** for library
 #+begin_src ruby
 require 'maple_plot'
-puts listplot3d('shift_energies')
+puts listplot3d(DATA_NAME_STRING) # default = 'data_3d'
 #+end_src
 
 CLIは基本的なメモを表示するような機能しかないです．

@@ -4,5 +4,6 @@ require_relative "maple_plot/version"
 
 module MaplePlot
   class Error < StandardError; end
-  # Your code goes here...
+  puts "Hello world."
+  
 end

@@ -21,4 +21,21 @@ labelfont = [Helvetica, 14]
 );
 EOS
   end
+
+  def pointplot(data_name='data_2d', with_gridlines=true)
+    cont =<<"EOS"
+with(plots):
+p1:=pointplot(#{data_name},symbol=solidcircle,symbolsize=30):
+display([p1],
+view=[-4..4,-4..4], color=black
+#gridlines=true,
+axis=[
+  gridlines=[thickness=2, subticks=true,
+  #linestyle=dash,
+  color=black]
+]
+);
+EOS
+  end
+
 end
